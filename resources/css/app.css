@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+/* Define the thumb */
+::-webkit-scrollbar-thumb {
+    background: #55555573;
+    border-radius: 16px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #5555559f;
+}
